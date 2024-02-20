@@ -1,19 +1,19 @@
 package _07_Generic._prac1;
 
-public class Pair<T> {
-    private T key;
-    private T value;
+public class Pair<K, V> {
+    private K key;
+    private V value;
 
-    public Pair(T key, T value) {
+    public Pair(K key, V value) {
         this.key = key;
         this.value = value;
     }
 
-    public T getKey() {
+    public K getKey() {
         return key;
     }
 
-    public T getValue() {
+    public V getValue() {
         return value;
     }
 }
